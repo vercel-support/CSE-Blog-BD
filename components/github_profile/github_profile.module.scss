@@ -1,0 +1,18 @@
+@import "../../globals.scss";
+
+.githubProfile {
+    margin: 0;
+    display: inline-block;
+    p {
+        font-size: 1.25rem;
+        margin: 0;
+        padding: 0 1rem;
+        text-align: start;
+        @media (max-width: map-get($map: $device-breakpoints, $key:mobile )) {
+            font-size: 1rem;
+        }
+    }
+    a {
+        color: green;
+    }
+}
